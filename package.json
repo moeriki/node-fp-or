@@ -1,0 +1,36 @@
+{
+  "name": "fp-or",
+  "version": "1.0.0",
+  "description": "A tiny or function for functional programming.",
+  "keywords": [
+    "fp",
+    "or"
+  ],
+  "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
+  "license": "MIT",
+  "repository": "git@github.com:Moeriki/node-fp-or.git",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js test/",
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "precommit": "npm run lint",
+    "prepush": "npm test"
+  },
+  "devDependencies": {
+    "coveralls": "~2.11.14",
+    "eslint": "~3.10.2",
+    "eslint-config-muriki": "~7.0.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jasmine": "~2.2.0",
+    "husky": "~0.12.0",
+    "jest": "~17.0.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "testEnvironment": "node",
+    "testRegex": "/test/.*\\.test\\.js$"
+  }
+}
