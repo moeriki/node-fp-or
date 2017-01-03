@@ -1,7 +1,6 @@
-__test__/
 coverage/
 node_modules/
-.babelrc
+test/
 .editorconfig
 .eslintrc.js
 .gitignore
