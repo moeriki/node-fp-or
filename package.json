@@ -1,7 +1,7 @@
 {
   "name": "fp-or",
   "version": "1.0.0",
-  "description": "A tiny or function for functional programming.",
+  "description": "A tiny 'or' function for functional programming.",
   "keywords": [
     "fp",
     "or"
