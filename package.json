@@ -18,13 +18,13 @@
     "prepush": "npm test"
   },
   "devDependencies": {
-    "coveralls": "~2.11.14",
-    "eslint": "~3.10.2",
+    "coveralls": "~3.0.5",
+    "eslint": "~6.1.0",
     "eslint-config-muriki": "~7.0.0",
-    "eslint-plugin-import": "~2.2.0",
-    "eslint-plugin-jasmine": "~2.2.0",
-    "husky": "~0.12.0",
-    "jest": "~17.0.3"
+    "eslint-plugin-import": "~2.18.2",
+    "eslint-plugin-jasmine": "~2.10.1",
+    "husky": "~3.0.1",
+    "jest": "~24.8.0"
   },
   "jest": {
     "collectCoverageFrom": [
